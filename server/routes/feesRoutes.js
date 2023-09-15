@@ -3,7 +3,7 @@ const router = express.Router();
 const feesController = require("../controllers/feesController"); // Update the controller import path
 
 // Create a new fees record
-router.post("/", feesController.createFees);
+router.post("/", feesController.createFees); // route to create files
 
 // Get all fees records
 router.get("/", feesController.getAllFees);
