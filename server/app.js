@@ -19,7 +19,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/RadCRUD");
 // Use user routes
 // app.use("/user", userRoutes);
 // Use student routes
-app.use("/student", studentRoutes);
+app.use("/student", studentRoutes); 
 // Use teacher routes
 app.use("/teacher", teacherRoutes);
 // Use class routes

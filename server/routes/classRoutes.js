@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require("express"); // creating express module
 const router = express.Router();
 const classController = require("../controllers/classController");
 
